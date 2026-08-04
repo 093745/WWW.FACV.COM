@@ -370,8 +370,7 @@
                     <h4>KPS High School, Addis Ababa</h4>
                     <span>September, 2014 – July, 2015</span>
                 </div> 
-                </div>
-            
+                
 
     <!-- JavaScript for interactive animations and utilities -->
     <script>
