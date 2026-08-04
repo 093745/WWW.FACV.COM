@@ -341,7 +341,7 @@
                 <div class="timeline-item">
                     <h4>Planning Engineer - EEC - Addis Ababa</h4>
                     <span>January, 2025 – Present</span>
-                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site visit, and report to the planning manager.
+                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site visits, and report to the planning manager.
                 
                           <!-- Job 2 -->
                 <div class="timeline-item">
@@ -362,8 +362,8 @@
                 <div class="timeline-item">
                     <h4>Construction Technology &amp; Management, AAU - Addis Ababa</h4>
                     <span>September, 2017 – July, 2022</span>
-                    <p>The realities, complexities and challenges of running a business organisation through real life case studies, role plays, innovative assignments and links with industry. Also developing a strong foundation in management skills and communication. Engaging with diverse perspectives and collaborating on projects enriched my academic experience.</p>
-                </div>
+                    <p>The realities, complexities, and challenges of running a business organisation through real-life case studies, role plays, innovative assignments, and links with industry. Also, developing a strong foundation in management skills and communication. Engaging with diverse perspectives and collaborating on projects enriched my academic experience.</p>
+                
                 
                  <!-- Job 2 -->
                 <div class="timeline-item">
