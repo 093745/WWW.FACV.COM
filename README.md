@@ -355,9 +355,10 @@
                     <h4>Intern Site Engineer - DCDE - Addis Ababa</h4>
                     <span>January, 2021 – Jun, 2021</span>
                     <p>Responsible for supervising and monitoring the project. Also, it includes reporting, quantity surveying and Site monitoring.</p></div>
+
+                    
                    
                  <h3>🎓 Education</h3>
-                
                    <!-- Job 1 -->
                 <div class="timeline-item">
                     <h4>Construction Technology &amp; Management, AAU - Addis Ababa</h4>
