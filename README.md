@@ -341,7 +341,7 @@
                 <div class="timeline-item">
                     <h4>Planning Engineer - EEC - Addis Ababa</h4>
                     <span>January, 2025 – Present</span>
-                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site vist and report to the planning manager.</div>
+                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site vist and report to the planning manager.
                 
                           <!-- Job 2 -->
                 <div class="timeline-item">
