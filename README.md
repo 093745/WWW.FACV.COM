@@ -356,8 +356,6 @@
                     <span>January, 2021 – Jun, 2021</span>
                     <p>Responsible for supervising and monitoring on the project. Also it includes reporting, quantity surveying and Site monitoring.</p>
                 </div> 
-              </div>
-              </div>
                 
                 <h3>🎓 Education</h3>
                 <div class="timeline-container">
@@ -374,9 +372,7 @@
                     <span>September, 2014 – July, 2015</span>
                 </div> 
                 </div>
-            </div>
-        </div>
-    </div>
+            
 
     <!-- JavaScript for interactive animations and utilities -->
     <script>
@@ -391,7 +387,6 @@
             }, 300);
         });
     </script>
-</body>
-</html>
+
 
 `
