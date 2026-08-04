@@ -329,7 +329,7 @@
                 <h3>👤 Profile</h3>
                 <div class="timeline-container">
                    <!-- Job 1 -->
-                <p>A self-driven, results-oriented Project Management &amp; Construction Planning, Scheduling & Monitoring Specialist with extensive experience of providing a full range of Construction, progress tracking and reporting across infrastructure and building projects. Balancing strategic planning with practical delivery of solutions to a diverse range of Projects, I consistently meet and exceed organisational commercial aims. High-level leadership skills with continous improvement, I am adept at implementing innovative solutions tailored to specific project needs and organisational development.</p></div>
+                <p>A self-driven, results-oriented Project Management &amp; Construction Planning, Scheduling & Monitoring Specialist with extensive experience of providing a full range of Construction, progress tracking, and reporting across infrastructure and building projects. Balancing strategic planning with practical delivery of solutions to a diverse range of Projects, I consistently meet and exceed organisational commercial aims. With high-level leadership skills and continuous improvement, I am adept at implementing innovative solutions tailored to specific project needs and organisational development.</p></div>
                 
 
                 <div class="work-experience-section"> 
@@ -351,11 +351,11 @@
                 </div>
                 
                     <!-- Job 3 -->
-                <div class="timeline-item">
+                <div class="timeline-item"> </div> 
                     <h4>Intern Site Engineer - DCDE - Addis Ababa</h4>
                     <span>January, 2021 – Jun, 2021</span>
                     <p>Responsible for supervising and monitoring on the project. Also it includes reporting, quantity surveying and Site monitoring.</p>
-                </div> </div> 
+                </div> 
                 
                 <h3>🎓 Education</h3>
                 <div class="timeline-container">
