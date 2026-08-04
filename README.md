@@ -348,7 +348,7 @@
                     <h4>Junior Planning Engineer &amp; Complier- EEC - Addis Ababa &amp; Gelan </h4>
                     <span>January, 2024 – December, 2024</span>
                     <p>Responsible to generate report with consistent duration intervals, develop tender and baseline schedules, and follow up on material and design deliverables. Throughout my career in EEC, I have completed infrastructure and building projects.</p>
-                </div>
+                
                 
                     <!-- Job 3 -->
                 <div class="timeline-item"> </div> 
