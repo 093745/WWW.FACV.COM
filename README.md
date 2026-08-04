@@ -243,7 +243,7 @@
     <div class="resume-container">
         <!-- Header Section -->
         <div class="header">
-            <img src="WWW.FACV.COM\1762313013770.jpg" alt="Fuad Akmel">
+            <img src="428933.png" alt="Fuad Akmel">
             <h1>Fuad Akmel</h1>
             <p>Construction Engineer &nbsp;|&nbsp; Addis Ababa, ETH &nbsp;|&nbsp; +251-937-450-342</p>
         </div>
