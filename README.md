@@ -358,9 +358,9 @@
                 
 
              
-    
+<div class="timeline-container">    
                 <h3>🎓 Education</h3>
-                <div class="timeline-container">
+                
                    <!-- Job 1 -->
                 <div class="timeline-item">
                     <h4>Construction Technology &amp; Management, AAU - Addis Ababa</h4>
