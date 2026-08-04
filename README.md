@@ -356,7 +356,8 @@
                     <span>January, 2021 – Jun, 2021</span>
                     <p>Responsible for supervising and monitoring on the project. Also it includes reporting, quantity surveying and Site monitoring.</p>
                 
-                
+              <div class="work-experience-section"> 
+    
                 <h3>🎓 Education</h3>
                 <div class="timeline-container">
                    <!-- Job 1 -->
