@@ -1,2 +1,397 @@
-# WWW.FACV.COM
-It is personal Curriculum Vitae.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fuad Akmel - Professional Resume</title>
+    <style>
+        :root {
+            --primary-color: #222;
+            --secondary-color: #555;
+            --light-gray: #e0e0e0;
+            --bg-color: #f4f4f4;
+            --container-bg: #fff;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            color: var(--primary-color);
+            margin: 0;
+            padding: 40px;
+            background-color: var(--bg-color);
+            -webkit-print-color-adjust: exact;
+        }
+
+        .action-bar {
+            max-width: 850px;
+            margin: 0 auto 20px auto;
+            text-align: right;
+        }
+
+        .print-btn {
+            background-color: #222;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 13px;
+            cursor: pointer;
+            border-radius: 4px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            transition: background 0.3s ease;
+        }
+
+        .print-btn:hover {
+            background-color: #444;
+        }
+
+        .resume-container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--container-bg);
+            padding: 50px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .header img {
+            width: 90px;
+            height: 90px;
+            border-radius: 12px;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+        }
+
+        .header h1 {
+            margin: 0 0 8px 0;
+            font-size: 28px;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+
+        .header p {
+            color: #777;
+            font-size: 13px;
+            margin: 0;
+            letter-spacing: 0.5px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: 260px 1fr;
+            gap: 40px;
+        }
+
+        .sidebar h3, .main-content h3 {
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 3px;
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            font-weight: bold;
+        }
+
+        .sidebar h3:first-child, .main-content h3:first-child {
+            margin-top: 0;
+        }
+
+        .sidebar p, .sidebar div {
+            font-size: 12px;
+            color: var(--secondary-color);
+            line-height: 1.5;
+        }
+
+        .sidebar a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+
+        .skill-item {
+            margin-bottom: 10px;
+        }
+
+        .skill-bar {
+            background: var(--light-gray);
+            height: 3px;
+            width: 100%;
+            margin-top: 4px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .skill-progress {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background: var(--primary-color);
+            width: 0; /* Animated via JS */
+            transition: width 1.2s ease-in-out;
+        }
+
+        .main-content p {
+            font-size: 12px;
+            color: var(--secondary-color);
+            line-height: 1.6;
+        }
+
+        .job, .education-item {
+            margin-bottom: 22px;
+        }
+
+        .job h4, .education-item h4 {
+            margin: 0 0 3px 0;
+            font-size: 13px;
+            font-weight: bold;
+            color: #222;
+        }
+        .timeline-container {
+    position: relative;
+    padding-left: 25px;
+    margin-top: 15px;
+}
+
+/* The vertical line running down the experience section */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 8px;
+    bottom: 8px;
+    width: 2px;
+    background-color: #5c3a38; /* Matches your current brownish/dark theme */
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+/* The dot marker for each job role */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    left: -25px;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 2px solid #5c3a38;
+}
+[8/4/2026 9:50 AM] Kepat: .job span, .education-item span {
+            font-size: 11px;
+            color: #888;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        /* Responsive design for smaller screens */
+        @media (max-width: 768px) {
+            body {
+                padding: 15px;
+            }
+            .resume-container {
+                padding: 20px;
+            }
+            .grid-container {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+        }
+
+        /* Print formatting */
+        @media print {
+            body {
+                background: none;
+                padding: 0;
+            }
+            .action-bar {
+                display: none;
+            }
+            .resume-container {
+                box-shadow: none;
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="action-bar">
+        <button class="print-btn" onclick="window.print()">Print / Save PDF</button>
+    </div>
+
+    <div class="resume-container">
+        <!-- Header Section -->
+        <div class="header">
+            <img src="C:\New folder\EEC\EEIG\CV for mahi\Cv Project\1762313013770.jpg" alt="Fuad Akmel">
+            <h1>Fuad Akmel</h1>
+            <p>Construction Engineer &nbsp;|&nbsp; Addis Ababa, ETH &nbsp;|&nbsp; +251-937-450-342</p>
+        </div>
+        
+        <div class="grid-container">
+            <!-- Left Sidebar -->
+            <div class="sidebar">
+                <center><h3>○ Details ○</h3></center>
+                <center><p>2P7P+WP4, Lideta<br>Addis Ababa, ETH</p></center>
+                <center><p style="margin-top: 7px;">+251-937-450-342</p></center>
+                <center><p style="margin-top: 7px;"><a href="mailto:fudahasen@gmail.com">fudahasen@gmail.com</a></p></center>
+                
+                <center><h3>○ Skills ○</h3></center>
+                <div class="skill-item">
+                    <center><div>Project Management with AI</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Project Planning & Scheduling with AI</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Project Control & Project Monitoring with AI</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="75%"></div></div>
+                </div>
+                
+                <div class="skill-item">
+                    <center><div>Quantity Surveyor, Tender & Estimation</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                </div>
+
+                <center><h3>○ Languages ○</h3></center>
+                <div class="skill-item">
+                    <center><div>English</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Amharic</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="100%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Turkish</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Arabic</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="60%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Chinese</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="30%"></div></div>
+                </div>
+
+                <center><h3>○ Software ○</h3></center>
+                <div class="skill-item">
+                    <center><div>Excel, Google Sheet &amp; Power BI</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="80%"></div></div>
+                </div>
+                
+                <div class="skill-item">
+                    <center><div>Autodesk Revit, Autocad & Naviswork</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="70%"></div></div>
+                </div>
+                <div class="skill-item">
+                    <center><div>Primavera & Microsoft Project</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="95%"></div></div>
+                </div>
+                
+                
+                <div class="skill-item">
+                    <center><div>Word & Power Point</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="90%"></div></div>
+                </div>
+               
+                <div class="skill-item">
+                    <center><div>VS, Python & JavaScript</div></center>
+                    <div class="skill-bar"><div class="skill-progress" data-width="40%"></div></div>
+                </div>
+            </div>
+            
+            <!-- Main Content Area -->
+            <div class="main-content">
+                <h3>👤 Profile</h3>
+                <div class="timeline-container">
+                   <!-- Job 1 -->
+                <p>A self-driven, results-oriented Project Management &amp; Construction Planning, Scheduling & Monitoring Specialist with extensive experience of providing a full range of Construction, progress tracking and reporting across infrastructure and building projects. Balancing strategic planning with practical delivery of solutions to a diverse range of Projects, I consistently meet and exceed organisational commercial aims. High-level leadership skills with continous improvement, I am adept at implementing innovative solutions tailored to specific project needs and organisational development.</p></div>
+                
+
+                <div class="work-experience-section"> 
+  
+
+                <h3>💼 Work Experience</h3>
+               <div class="timeline-container"> 
+                    <!-- Job 1 -->
+                <div class="timeline-item">
+                    <h4>Planning Engineer - EEC - Addis Ababa</h4>
+                    <span>January, 2025 – Present</span>
+                    <p>Responsible to develop and revise the baseline schedule and tender schedule, generate weekly and monthly progress report, track project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site vist and report to the planning manager.</div>
+                
+                          <!-- Job 2 -->
+                <div class="timeline-item">
+                    <h4>Junior Planning Engineer &amp; Complier- EEC - Addis Ababa &amp; Gelan </h4>
+                    <span>January, 2024 – December, 2024</span>
+                    <p>Responsible to generate report with consistent duration intervals, develop tender and baseline schedules, and follow up on material and design deliverables. Throughout my career in EEC, I have completed infrastructure and building projects.</p>
+                </div>
+                
+                    <!-- Job 3 -->
+                <div class="timeline-item">
+                    <h4>Intern Site Engineer - DCDE - Addis Ababa</h4>
+                    <span>January, 2021 – Jun, 2021</span>
+                    <p>Responsible for supervising and monitoring on the project. Also it includes reporting, quantity surveying and Site monitoring.</p>
+                </div> 
+              </div>
+              </div>
+                
+                <h3>🎓 Education</h3>
+                <div class="timeline-container">
+                   <!-- Job 1 -->
+                <div class="timeline-item">
+                    <h4>Construction Technology &amp; Management, AAU - Addis Ababa</h4>
+                    <span>September, 2017 – July, 2022</span>
+                    <p>The realities, complexities and challenges of running a business organisation through real life case studies, role plays, innovative assignments and links with industry. Also developing a strong foundation in management skills and communication. Engaging with diverse perspectives and collaborating on projects enriched my academic experience.</p>
+                </div>
+                
+                 <!-- Job 2 -->
+                <div class="timeline-item">
+                    <h4>KPS High School, Addis Ababa</h4>
+                    <span>September, 2014 – July, 2015</span>
+                </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript for interactive animations and utilities -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            // Animate skill bars on load
+            const progressBars = document.querySelectorAll('.skill-progress');
+            setTimeout(() => {
+                progressBars.forEach(bar => {
+                    const targetWidth = bar.getAttribute('data-width');
+                    bar.style.width = targetWidth;
+                });
+            }, 300);
+        });
+    </script>
+</body>
+</html>
+
+`
