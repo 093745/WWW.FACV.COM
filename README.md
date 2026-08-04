@@ -358,7 +358,7 @@
                 
 
              
-<div class="timeline-container">    
+
                 <h3>🎓 Education</h3>
                 
                    <!-- Job 1 -->
