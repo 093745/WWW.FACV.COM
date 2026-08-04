@@ -341,21 +341,21 @@
                 <div class="timeline-item">
                     <h4>Planning Engineer - EEC - Addis Ababa</h4>
                     <span>January, 2025 – Present</span>
-                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site vist and report to the planning manager.
+                    <p>Responsible for developing and revising the baseline schedule and tender schedule, generating weekly and monthly progress reports, tracking project progress, revenue, constraints, and challenges. Compile all projects' weekly status reports, site visit, and report to the planning manager.
                 
                           <!-- Job 2 -->
                 <div class="timeline-item">
                     <h4>Junior Planning Engineer &amp; Complier- EEC - Addis Ababa &amp; Gelan </h4>
                     <span>January, 2024 – December, 2024</span>
-                    <p>Responsible to generate report with consistent duration intervals, develop tender and baseline schedules, and follow up on material and design deliverables. Throughout my career in EEC, I have completed infrastructure and building projects.</p>
+                    <p>Responsible for generating reports with consistent duration intervals, developing tender and baseline schedules, and following up on material and design deliverables. Throughout my career in EEC, I have completed infrastructure and building projects.</p>
                 
                 
                     <!-- Job 3 -->
                 <div class="timeline-item"> </div> 
                     <h4>Intern Site Engineer - DCDE - Addis Ababa</h4>
                     <span>January, 2021 – Jun, 2021</span>
-                    <p>Responsible for supervising and monitoring on the project. Also, it includes reporting, quantity surveying and Site monitoring.</p>
-                    <p> </p>
+                    <p>Responsible for supervising and monitoring the project. Also, it includes reporting, quantity surveying and Site monitoring.</p></div>
+                   
                  <h3>🎓 Education</h3>
                 
                    <!-- Job 1 -->
